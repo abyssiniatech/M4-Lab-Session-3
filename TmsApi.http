@@ -1,6 +1,23 @@
-@TmsApi_HostAddress = http://localhost:5235
+@TmsApi_HostAddress = http://localhost:5235/api/students/
 
-GET {{TmsApi_HostAddress}}/weatherforecast/
+GET {{TmsApi_HostAddress}}/api/students
 Accept: application/json
 
 ###
+
+
+[ApiController]
+[Route("api/students")]
+public class StudentsController : ControllerBase
+{
+    [HttpGet]
+    public IActionResult GetStudents()
+    {
+        return Ok(new[]
+        {
+            "Abel",
+            "Sara",
+            "John"
+        });
+    }
+}

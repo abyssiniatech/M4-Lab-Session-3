@@ -4,6 +4,8 @@ using TmsApi.Services;
 
 namespace TmsApi.Controllers;
 
+// add CourseRecord and StudentRecord to the Data class
+
 [ApiController]
 [Route("api/enrollments")]
 public class EnrollmentsController

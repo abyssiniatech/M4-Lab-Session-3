@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\M4-Lab-Session-3\\TmsApi\\TmsApi.csproj": {}
+    "C:\\Users\\CSUG\\Desktop\\TmsCore\\TmsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\M4-Lab-Session-3\\TmsApi\\TmsApi.csproj": {
+    "C:\\Users\\CSUG\\Desktop\\TmsCore\\TmsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\M4-Lab-Session-3\\TmsApi\\TmsApi.csproj",
+        "projectUniqueName": "C:\\Users\\CSUG\\Desktop\\TmsCore\\TmsApi.csproj",
         "projectName": "TmsApi",
-        "projectPath": "C:\\Users\\user\\Desktop\\M4-Lab-Session-3\\TmsApi\\TmsApi.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\M4-Lab-Session-3\\TmsApi\\obj\\",
+        "projectPath": "C:\\Users\\CSUG\\Desktop\\TmsCore\\TmsApi.csproj",
+        "packagesPath": "C:\\Users\\CSUG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CSUG\\Desktop\\TmsCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\CSUG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
