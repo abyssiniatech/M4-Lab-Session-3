@@ -33,6 +33,7 @@ public class CourseService : ICourseService
             Guid.NewGuid().ToString(),
             name,
             description,
+            string.Empty,
             DateTime.UtcNow);
 
         FakeDatabase.Courses.Add(record);
