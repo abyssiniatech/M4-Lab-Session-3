@@ -9,6 +9,7 @@ namespace TmsApi.Entities
         public bool IsActive { get; set; } = true;
 
      public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
+        public string Email { get; internal set; }
     }
     
     
